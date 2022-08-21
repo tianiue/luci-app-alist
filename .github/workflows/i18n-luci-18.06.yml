@@ -1,6 +1,7 @@
 name: i18n-luci-18.06
 
 on:
+  workflow_dispatch:
   release:
     types:
       - published
